@@ -2,7 +2,7 @@
 #Chanasorn Chirapongsathon 6787015
 #Saksit Jittasopee 6787077
 setwd("C:/Users/Acer/Desktop/DST - Coding/Statistics/ITDS125_Lab_W4/w4")
-getwd()
+getwd() 
 
 #R calculator
 2+3
@@ -93,4 +93,5 @@ arranged_data
 arranged_data_1 <- optimal_temp_log %>%
   filter(altitude.m > 100) %>%
   arrange(desc(altitude.m))
+
 arranged_data_1
